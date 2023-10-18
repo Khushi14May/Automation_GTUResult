@@ -5,7 +5,7 @@ Suite Teardown    Close Browser
 #author:khushi shah
 
 *** Test Cases ***
-Fetching All Results
+Fetching All Results Of Students
     FOR    ${enroll_number}    IN RANGE    ${startenrolln}    ${endenrolln}  
         Select From List By Label    ${GtuSessionDropDown}    ${SessionSelection}
         Select From List By Label    ${GtuExamSelectionDropdown}    ${ExamSelection}
